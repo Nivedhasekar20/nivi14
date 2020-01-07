@@ -1,0 +1,22 @@
+weekNumber = input("Enter the week number:")
+weekNumber = int(weekNumber)
+
+if (weekNumber == 1):
+  weekDay = "Monday"
+elif (weekNumber == 2):
+  weekDay = "Tuesday"
+elif (weekNumber == 3):
+  weekDay = "Wednesday"
+elif (weekNumber == 4):
+  weekDay = "Thursday"
+elif (weekNumber == 5):
+  weekDay = "Friday"
+elif (weekNumber == 6):
+  weekDay = "Saturday"
+elif (weekNumber == 7):
+  weekDay = "Sunday"
+else:
+  weekDay = "Please enter the week number between 1 and 7"
+  
+print (weekDay)
+  
